@@ -69,15 +69,6 @@ header {
     min-width: 0;
 }
 
-.static:hover {
-    opacity: 0;
-}
-
-.active:: {
-    max-width: 20%;
-    max-height: 20%;
-}
-
 .about-block {
     margin-right: 20px;
     padding: 20px;
