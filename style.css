@@ -1,0 +1,148 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url(./assets/img/background-img.gif);
+    background-color: black;
+}
+
+header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./assets/img/header-imges.jpg);
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 140px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.box h1 {
+    color: rgb(62, 115, 133);
+    background: none;
+    font-size: 50px;
+    margin-top: 20px;
+    height: 70px; 
+}
+
+
+.navigation {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style: none;
+    background: none;
+    padding-right: 10px;
+    height: 40px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.hero img{
+    background: black;
+    margin-right: 0px;
+    min-width: 0 ;
+    min-height: 0 ;
+    overflow: hidden;
+    flex: 1;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.static {
+    display: flex;
+    position: absolute;
+    height: 259px;
+    width: 259px;
+    min-height: 0;
+    min-width: 0;
+}
+
+.static:hover {
+    opacity: 0;
+}
+
+.active {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+#self-img {
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+.about-block {
+    display: flex;
+    margin-right: 20px;
+    padding: 20px;
+    float: right;
+    clear: both;
+    width: 25%;
+}
+
+.about-block h2 {
+    align-items: flex-start;
+    background-color: none;
+    height: 30px;
+    width: 105px;
+    color: whitesmoke;
+    margin: 0% 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-block p {
+    border: 5px none;
+    height: 620px;
+    width: 120px;
+    padding: 5px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+.navigation a { 
+    text-decoration: none;
+    display: block;
+    padding-left: 20px;
+    padding-right: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.navigation a:hover {
+    background: #666;
+}
+
+.third-img {
+    height: 200px;
+}
+
+.gym-show {
+    height: 200px;
+}
+
+.desk-show {
+    height: 200px;
+    
+}
+
+.nav-block {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 15px solid none;
+    padding: 15px 15px 15px 15px;
+    margin: 10px;
+    width: 500px;
+}
+
